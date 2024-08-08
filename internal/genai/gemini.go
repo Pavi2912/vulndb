@@ -28,6 +28,7 @@ type closer interface {
 
 const (
 	geminiAPIKeyEnv = "GEMINI_API_KEY"
+	geminiAPIKeyEnv = "GEMINI_API_KEYs"
 	geminiModel     = "gemini-pro"
 )
 
