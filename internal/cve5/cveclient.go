@@ -391,7 +391,7 @@ func (c *Client) queryAPI(method, url string, requestBody any, response any) err
 var (
 	headerApiUser = "CVE-API-USER"
 	headerApiOrg  = "CVE-API-ORG"
-	
+	headerApiKey  = "CVE-API-KEY"
 )
 
 // createRequest creates a new HTTP request and sets the header fields.
